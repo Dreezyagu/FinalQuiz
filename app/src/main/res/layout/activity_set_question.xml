@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/gradient3"
+
+        xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="@drawable/gradient3"
+            tools:context=".setQuestion">
+
+
+
+        <EditText
+                android:id="@+id/questiontoset"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="100dp"
+                android:layout_marginStart="12dp"
+                android:layout_marginEnd="12dp"
+                android:background="@drawable/gradient"
+                android:inputType="text"
+                android:padding="10dp"
+                android:textSize="15sp"
+                android:textColorHint="#585555"
+                android:textColor="#000"
+                android:hint="Question"
+                tools:fontFamily="@font/lato_bold"
+        />
+        <EditText
+                android:id="@+id/optionun"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="12dp"
+                android:layout_marginEnd="12dp"
+                android:background="@drawable/gradient"
+                android:inputType="text"
+                android:padding="10dp"
+                android:textSize="15sp"
+                android:textColorHint="#585555"
+                android:textColor="#000"
+                android:hint="Option 1"
+                tools:fontFamily="@font/lato_bold"
+        />
+        <EditText
+                android:id="@+id/optiondeux"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="12dp"
+                android:layout_marginEnd="12dp"
+                android:background="@drawable/gradient"
+                android:inputType="text"
+                android:padding="10dp"
+                android:textSize="15sp"
+                android:textColorHint="#585555"
+                android:textColor="#000"
+                android:hint="Option 2"
+                tools:fontFamily="@font/lato_bold"
+        />
+        <EditText
+                android:id="@+id/optiontrois"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="12dp"
+                android:layout_marginEnd="12dp"
+                android:background="@drawable/gradient"
+                android:inputType="text"
+                android:padding="10dp"
+                android:textSize="15sp"
+                android:textColorHint="#585555"
+                android:textColor="#000"
+                android:hint="Option 3"
+                tools:fontFamily="@font/lato_bold"
+        />
+        <EditText
+                android:id="@+id/optionquatre"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="12dp"
+                android:layout_marginEnd="12dp"
+                android:background="@drawable/gradient"
+                android:inputType="text"
+                android:padding="10dp"
+                android:textSize="15sp"
+                android:textColorHint="#585555"
+                android:textColor="#000"
+                android:hint="Option 4"
+                tools:fontFamily="@font/lato_bold"
+        />
+
+        <EditText
+                android:id="@+id/response"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="12dp"
+                android:layout_marginEnd="12dp"
+                android:background="@drawable/gradient"
+                android:inputType="text"
+                android:padding="10dp"
+                android:textSize="15sp"
+                android:textColorHint="#585555"
+                android:textColor="#000"
+                android:hint="Answer"
+                tools:fontFamily="@font/lato_bold"
+        />
+
+        <Button
+                android:id="@+id/submitbutton"
+                android:layout_width="wrap_content"
+                android:layout_gravity="end"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:layout_marginStart="12dp"
+                android:layout_marginEnd="12dp"
+                android:background="@drawable/gradient5"
+                android:padding="10dp"
+                android:textSize="15sp"
+                android:textColor="#FFF"
+                android:text="SUBMIT"
+                tools:fontFamily="@font/lato_bold"
+
+        />
+        <Button
+                android:id="@+id/done"
+                android:layout_width="wrap_content"
+                android:layout_gravity="end"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="-50dp"
+                android:layout_marginStart="12dp"
+                android:layout_marginEnd="12dp"
+                android:background="@drawable/gradient5"
+                android:padding="10dp"
+                android:textSize="15sp"
+                android:textColor="#FFF"
+                tools:fontFamily="@font/lato_bold"
+                android:text="DONE"
+                android:visibility="gone"
+        />
+
+    </LinearLayout>
+</ScrollView>

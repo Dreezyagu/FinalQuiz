@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:orientation="horizontal"
+        android:background="@drawable/gradient3"
+        android:layout_gravity="center">
+
+    <ProgressBar
+            android:id="@+id/login_dialog_bar"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_margin="16dp"
+            android:indeterminateTint="#F82828"
+    />
+
+    <TextView
+            android:id="@+id/login_dialog_msg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:textColor="#F82828"
+            tools:fontFamily="sans-serif-thin"
+    />
+</LinearLayout>
